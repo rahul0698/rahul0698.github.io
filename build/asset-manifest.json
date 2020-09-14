@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8579c196.chunk.css",
+    "main.js": "/static/js/main.244fbc58.chunk.js",
+    "main.js.map": "/static/js/main.244fbc58.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6b3488d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6b3488d1.js.map",
+    "static/js/2.be78221e.chunk.js": "/static/js/2.be78221e.chunk.js",
+    "static/js/2.be78221e.chunk.js.map": "/static/js/2.be78221e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.948c08edec36e323abb70a2ee3d9b64f.js": "/precache-manifest.948c08edec36e323abb70a2ee3d9b64f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8579c196.chunk.css.map": "/static/css/main.8579c196.chunk.css.map",
+    "static/js/2.be78221e.chunk.js.LICENSE.txt": "/static/js/2.be78221e.chunk.js.LICENSE.txt",
+    "static/media/basset-and-gold-logo-white-svg.svg": "/static/media/basset-and-gold-logo-white-svg.12f2b20e.svg",
+    "static/media/cubid_logo.png": "/static/media/cubid_logo.0761a4df.png",
+    "static/media/demo_image.jpg": "/static/media/demo_image.430db85a.jpg",
+    "static/media/home.jpg": "/static/media/home.10cc2dc0.jpg",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.88102d2a.jpg",
+    "static/media/udi.jpeg": "/static/media/udi.96e3e265.jpeg",
+    "static/media/wisdo.svg": "/static/media/wisdo.5c0d66e9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b3488d1.js",
+    "static/js/2.be78221e.chunk.js",
+    "static/css/main.8579c196.chunk.css",
+    "static/js/main.244fbc58.chunk.js"
+  ]
+}
