@@ -1,0 +1,22 @@
+.footer_section {
+    padding: 40px 0;
+    position: relative;
+    box-shadow: 0 -5px 10px black;
+}
+
+.social_media .icon {
+    margin-right: 2rem;
+    color: #100e17;
+}
+
+.rights_reserved {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .rights_reserved {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,102 @@
+.testimonial_section {
+    padding: 60px 0;
+    position: relative;
+}
+.testimonial_heading {
+    display: inline-block;
+    font-size: 2.9rem;
+    font-weight: 400;
+    padding: 10px 0;
+    margin-bottom: 44px;
+    text-align: center;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    color: #fff;
+    margin-top: 20px;
+    letter-spacing: 0;
+}
+
+.lead {
+    font-size: 1.4375rem;
+    font-weight: 300;
+    color: white;
+}
+
+.testimonial_cards {
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.card {
+    min-width: 300px;
+    width: 300px;
+    height: 500px;
+    background: #17141d;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.2s;
+    color: #fff;
+    position: relative;
+}
+.card:not(:first-child) {
+    margin-left: -2rem;
+}
+
+.card:not(:last-child):hover, .card:not(:last-child):focus-within {
+    transform: translateY(-1rem);
+}
+
+.card:not(:last-child):hover~.card,
+.card:not(:last-child):focus-within~.card {
+    transform: translateX(2rem);
+}
+
+.author {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2rem;
+}
+.author_pic {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 2rem;
+    position: relative;
+}
+
+.semi-circle {
+    width: 88px;
+    height: 44px;
+    position: absolute;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: 10px solid #ff8a00;
+    padding: 15px;
+    border-top: 0;
+    transform: translate(-19%, 71%);
+}
+
+.author_details {
+    font-size: 1rem;
+    text-trasnform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.author_details span {
+    display: block;
+    font-size: .875rem;
+    margin: 0;
+    font-weight: 400;
+}

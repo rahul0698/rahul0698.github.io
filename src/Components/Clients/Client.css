@@ -1,0 +1,16 @@
+.client_section {
+    padding: 60px 0;
+    position: relative;
+}
+
+.customer {
+    height: 100px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+   .customer {
+       height: 100px;
+       width: 200px;
+   }
+}

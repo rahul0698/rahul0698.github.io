@@ -1,0 +1,111 @@
+.my_work_section {
+    padding: 60px 0;
+    position: relative;
+}
+
+.my_work_heading {
+    display: inline-block;
+    font-size: 2.9rem;
+    font-weight: 100;
+    padding: 10px 0;
+    margin-bottom: 44px;
+    text-align: center;
+    border-bottom: solid 1px #100e17;
+    border-top: solid 1px #100e17;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    color: #fff;
+    margin-top: 20px;
+    letter-spacing: 0;
+}
+
+.my_work_subHeading {
+    font-size: 1.4375rem;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 0;
+}
+
+.work_type {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.work_type li {
+    padding: 10px;
+    margin: 0 10px;
+    border-top: 1px solid #100e17;
+    border-bottom: 1px solid #100e17;
+    color: #fff;
+}
+
+.work_type li:hover {
+    background: #100e17;
+    color: white;
+    cursor: pointer;
+}
+
+.project_reference {
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    animation-fill-mode: forwards;
+}
+
+.project_reference:hover img{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.overlay {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s ease;
+    padding: 15px;
+}
+
+.project_reference:hover .overlay {
+    height: 100%;
+    opacity: 1;
+}
+
+.project_name {
+    font-size: 1.5rem;
+    color: #ff8a00;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+}
